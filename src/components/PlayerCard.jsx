@@ -8,6 +8,7 @@ const PlayerCard = ({name, img, statistics}) => {
       <Card.Footer>
         <Card.Title>{name}</Card.Title>
       </Card.Footer>
+      
     </Card>
   );
 };
