@@ -1,11 +1,12 @@
 import { Card } from "react-bootstrap";
 
-const PlayerCard = () => {
+const PlayerCard = ({name, img, statistics}) => {
+    
   return (
     <Card>
-      <Card.Img variant="top" src="holder.js/100px180?text=Image cap" />
+      <Card.Img variant="top" src={img} />
       <Card.Footer>
-        <Card.Title>Card Link</Card.Title>
+        <Card.Title>{name}</Card.Title>
       </Card.Footer>
     </Card>
   );
