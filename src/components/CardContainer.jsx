@@ -1,9 +1,11 @@
 import Container from "react-bootstrap/Container";
-import { data } from "../helpers/data"
+import { data } from "../helpers/data";
 
 const CardContainer = () => {
   return (
-    <div>CardContainer</div>
+    <Container>{data.map((player) => console.log(player))}
+    </Container>
+    
   )
 }
 
